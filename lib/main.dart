@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mra/constants/routes.dart';
 import 'package:mra/views/login_page.dart';
 
 main() {
@@ -16,6 +17,9 @@ class AppWidget extends StatelessWidget {
       themeMode: ThemeMode.light,
       home: const LoginPage(),
       debugShowCheckedModeBanner: false,
+      routes: {
+        loginRoute: (context) => const LoginPage(),
+      },
     );
   }
 }
