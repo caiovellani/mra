@@ -55,15 +55,16 @@ class _LoginPageState extends State<LoginPage> {
                   style: TextStyle(color: Colors.black, fontSize: 15),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 40),
+                  padding: const EdgeInsets.only(left: 20),
                   child: TextButton(
-                      style: TextButton.styleFrom(
-                          foregroundColor: Colors.green[900]),
-                      onPressed: () {},
-                      child: const Text(
-                        'Esqueceu sua senha?',
-                        style: TextStyle(fontSize: 15),
-                      )),
+                    style: TextButton.styleFrom(
+                        foregroundColor: Colors.green[900]),
+                    onPressed: () {},
+                    child: const Text(
+                      'Esqueceu sua senha?',
+                      style: TextStyle(fontSize: 15),
+                    ),
+                  ),
                 )
               ],
             ),
